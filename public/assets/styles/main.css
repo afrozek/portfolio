@@ -1,0 +1,268 @@
+html{
+	height: 100%;
+}
+
+body{
+	font-family:"Helvetica","Arial","Sans-Serif";
+	background: url('../images/antique_library.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	!padding-top: 50px;
+	height: 100%;
+	color: black;
+	font-weight: 100;
+}
+
+/*helpers*/
+
+.clearPadding{
+	padding: 0;
+	/* overflow: auto; */
+}
+
+.clearMargin{
+	margin: 0;
+}
+
+.centerText{
+	text-align: center;
+} 
+
+.centerDiv{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fullHeight{
+	height: 100%;
+	overflow: auto;
+}
+
+.fullWidth{
+	width: 100%;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+
+.outline{
+	!outline: 1px solid white !important;
+}
+
+.centerText{
+	text-align: center;
+}
+/*colors*/
+
+.softBlue{
+	background: #49AAEF;
+}
+
+.blackGradient{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,474747+25,2c2c2c+72 */
+	background: rgb(76,76,76); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(76,76,76,1) 0%, rgba(71,71,71,1) 25%, rgba(44,44,44,1) 72%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(71,71,71,1) 25%,rgba(44,44,44,1) 72%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(76,76,76,1) 0%,rgba(71,71,71,1) 25%,rgba(44,44,44,1) 72%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#2c2c2c',GradientType=0 ); /* IE6-9 */
+
+}
+
+.silverGradient{
+	background: white; /*fallback*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d8d8d8+100 */
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(216,216,216,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(216,216,216,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(216,216,216,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d8d8d8',GradientType=0 ); /* IE6-9 */
+
+}
+
+.nav{
+	height: 100%;
+	overflow: auto;
+	border-right: 1px solid #3fffab;
+	background: rgba(255,255,255,.1);
+}
+
+.logo{
+	display: block;
+	text-align: center;
+	font-size: 72px;
+	color: white;
+	font-weight: 300;
+	font-family: "jura","Helvetica","Arial","Sans-Serif";
+
+}
+
+.nav ul{
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+	font-family: "jura","Helvetica","Arial","Sans-Serif";
+
+}
+
+.nav ul li{text-align: center;margin: 15px;}
+
+.nav ul li a{
+	color: white;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.nav ul li a:hover{
+	text-decoration: none;
+	border-bottom: 1px solid #3fffab;
+	color: #3fffab;
+}
+
+.content{
+	/* height: 100%; */
+	/* overflow: auto; */
+	color: white;
+	padding: 30px;
+}
+
+.home{
+	color: white;
+	/* height: 200px; */!outline:1px
+	solid white;
+	top: 200px;
+	position: relative;
+	font-weight: 100;
+	/* overflow: hidden; */
+}
+
+.home h2{
+	margin: 0;
+	color: #3fffab;
+	font-weight: 100;
+	font-family: "jura","Helvetica","Arial","Sans-Serif";
+
+}
+
+.profilePic{
+	height: 200px;
+	width: auto;
+	float: right;
+}
+
+.contentContainer{
+	overflow: auto;
+	border-bottom: 1px solid #3fffab;
+	padding-bottom: 20px;
+}
+
+.content .pageTitle h2{
+	background: rgba(255,255,255,.1);
+	padding: 10px;
+	padding-left: 15px;
+	border-left: 1px solid #3fffab;
+	color: #3fffab;
+	font-weight: lighter;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-size: 48px;
+	font-family: "jura","Helvetica","Arial","Sans-Serif";
+
+}
+
+.content .body h3{
+	color: #3fffab;
+	font-family: "jura","Helvetica","Arial","Sans-Serif";
+
+}
+
+.content .skillsTable{
+	/* background: rgba(255,255,255,.1); */
+	clear: both;
+	/* overflow: auto; */
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+	height: 290px;
+}
+
+.content .skillsTable .col-md-4{
+	box-sizing: borderbox;
+	border: 1px solid rgba(0,0,0,.3);
+	background: rgba(225, 225, 225, .1);
+	/* box-sizing: inherit; */
+	height: 100%;
+}
+
+
+.content .skillsTable h3{
+	background: rgba(255,255,255,.1);
+	padding: 10px;
+	border-bottom: 1px solid #3fffab;
+	font-family: "jura","Helvetica","Arial","Sans-Serif";
+	margin: 0;
+}
+
+.content .skillsTable ul{
+	margin-top: 10px;
+}
+
+.portfolio{
+	margin-top: 40px;
+}
+
+.portfolio .portImage{
+	width: 90%;
+	height: auto;
+}
+	
+@media screen and (max-width: 992px) {
+    .nav{
+		height: 100px;
+	    overflow: hidden;
+	    /* margin-bottom: 10px; */
+	    position: fixed;
+	    width: 100%;
+	    background: rgb(46, 46, 46);
+	    z-index: 99;
+    }
+
+    .nav:hover{
+    	!height: auto;
+    }
+
+    .content{
+    	padding-top: 100px;
+    }
+}
+
+
+
+
+
+
+/*transitions*/
+.ui-view-container {
+  position: relative;
+}
+/*
+[ui-view].ng-enter, [ui-view].ng-leave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+}*/

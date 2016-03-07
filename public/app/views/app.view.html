@@ -1,0 +1,22 @@
+<!-- <header ng-include="'app/views/includes/app.nav.html'">
+
+</header> -->
+<!-- <div class="row fullHeight">
+	<div class="ui-view-container fullHeight">
+		<div ui-view class="fullHeight">
+		</div>
+	</div>
+</div> -->
+<div class="nav outline col-md-3 clearPadding clearMargin" ng-controller="appCtrl as app" ng-click="app.toggleNav()" >
+	<span class="logo">ak</span>
+	<ul>
+		<li><a ui-sref="app.home" >home</a></li>
+		<li><a ui-sref="app.bio" >bio</a></li>
+		<li><a ui-sref="app.skills" >skills</a></li>
+		<li><a ui-sref="app.portfolio" href="">portfolio</a></li>
+	</ul>
+</div>
+
+<div class="fullHeight" ui-view>
+
+</div>
