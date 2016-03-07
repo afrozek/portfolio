@@ -10,7 +10,7 @@
 	var morgan = require('morgan'); // logs all requests to console
 	var mongoose = require('mongoose'); //ORM 
 	var path = require('path');
-	var port = 3100;
+	var port = 80;
 //CONFIG IMPORT
 	//var config = require('./config');
 
@@ -37,7 +37,7 @@
 
 // DB CONNECT
 	//mongoose.connect(config.database);
-	mongoose.connect("mongodb://localhost:27017/notekeeper");
+	//mongoose.connect("mongodb://localhost:27017/notekeeper");
 
 //STATIC FILE LOCATIONS
 app.use(express.static(__dirname + '/public'));
