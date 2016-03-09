@@ -101,6 +101,17 @@ angular.module('app')
 			}
 		})
 
+		.state('app.apps',{
+			url: '/apps',
+			templateUrl:'app/views/app.portfolio.apps.html',
+			controller: 'notesCtrl',
+			controllerAs: 'notes',
+			data: {
+				permission: false,
+				permissionLevel: ['everyone']
+			}
+		})
+
 		//$httpProvider.interceptors.push('authInterceptor');
 
 
