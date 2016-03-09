@@ -7,7 +7,7 @@
 		</div>
 	</div>
 </div> -->
-<div class="nav outline col-md-3 clearPadding clearMargin" ng-controller="appCtrl as app" ng-click="app.toggleNav()" >
+<!-- <div class="nav outline col-md-3 clearPadding clearMargin" ng-controller="appCtrl as app" ng-click="app.toggleNav()" >
 	<span class="logo">ak</span>
 	<ul>
 		<li><a ui-sref="app.home" >home</a></li>
@@ -15,8 +15,76 @@
 		<li><a ui-sref="app.skills" >skills</a></li>
 		<li><a ui-sref="app.portfolio" href="">portfolio</a></li>
 	</ul>
+</div> -->
+
+<div class="navContainer">
+	<div class="nav centerDiv">
+		<ul>
+			<li><a ui-sref="app.home" >home</a></li>
+			<li><a ui-sref="app.bio" >about</a></li>
+			<li><a ui-sref="app.skills" >contact</a></li>
+			<li><a ui-sref="app.portfolio" href="">portfolio</a></li>
+		</ul>
+	</div>
+</div>
+<div class="headerContainer">
+	<div class="header centerDiv">
+		<h1>
+			Designer
+			<br>
+			Programmer
+			<br>
+			<span>&</span>
+			<br>
+			Everything <span>Web</span>
+		</h1>
+
+	</div>
+</div>
+<div class="contentContainer">
+	<div class="content centerDiv">
+		<h2 class="contentTitle" >portfolio</h2>
+		<div class="boxes ">
+			
+				<div class="col-md-6">
+					<div id="apps" class="box">
+						<h2>
+							<a href="">apps</a>
+						</h2>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div id="designs" class="box">
+						<h2>
+							<a href="">designs</a>
+						</h2>
+					</div>
+				</div>
+			
+			
+				<div class="col-md-6">
+					<div id="manips" class="box">
+						<h2>
+							<a href="">manips</a>
+						</h2>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div id="other" class="box">
+						<h2>
+							<a href="">other</a>
+						</h2>
+					</div>
+				</div>
+			
+
+		</div>
+
+	</div>
+
 </div>
 
-<div class="fullHeight" ui-view>
 
-</div>
+<!-- <div class="fullHeight" ui-view>
+
+</div> -->
