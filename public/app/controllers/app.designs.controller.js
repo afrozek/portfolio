@@ -20,14 +20,14 @@
 
 		 vm.data = [
 			{
-				title: "NoteTaker",
-				info: "Wanted to make something like google keep and trello for practice, unique thing about this app is that you can drag and drop from mobile devices thanks to the touchpunch library. You can also save your notes to retrieve them later. Going to change the UI soon and integrate websockets, sharing and other features.",
-				img:"assets/gifs/notetaker.gif"
+				title: "Health Blog",
+				info: "Health blog made with Angular and PHP",
+				img:"assets/images/moizBlog.png"
 			},
 			{
-				title: "MoizLatif",
-				info: "so goods",
-				img:"assets/images/sampleDisplay.png"
+				title: "NJ TETN Brochure",
+				info: "Brochure made for NJ Technology and Entrepreneurship Talent Network. Custom made icons.",
+				img: "assets/images/tetnBrochure.png"
 			}
 		 ]
 
