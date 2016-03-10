@@ -103,9 +103,9 @@ angular.module('app')
 
 		.state('app.apps',{
 			url: '/apps',
-			templateUrl:'app/views/app.portfolio.apps.html',
-			controller: 'notesCtrl',
-			controllerAs: 'notes',
+			templateUrl:'app/views/app.portfolio.template.html',
+			controller: 'appsCtrl',
+			controllerAs: 'apps',
 			data: {
 				permission: false,
 				permissionLevel: ['everyone']
