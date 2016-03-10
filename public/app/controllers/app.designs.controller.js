@@ -28,6 +28,11 @@
 				title: "NJ TETN Brochure",
 				info: "Brochure made for NJ Technology and Entrepreneurship Talent Network. Custom made icons.",
 				img: "assets/images/tetnBrochure.png"
+			},
+			{
+				title: "NJ TETN Linkedin Web Ad",
+				info: "Web Advertisements featured on Linkedin",
+				img: "assets/images/tetnAd.png"
 			}
 		 ]
 

@@ -19,6 +19,11 @@
 		 vm.pageTitle = "photo manipulations";
 
 		 vm.data = [
+		 	{
+				title: "Birthday Wallpaper",
+				info: "Wallpaper promoting a birthday. Technology Used: Adobe Photoshop ",
+				img:"assets/images/adilBeforeAfter.png"
+			},
 			{
 				title: "Linkedin Touch Up",
 				info: "Airbrush, suit color change, fixed tie, and added background. Technology Used: Adobe Photoshop",
@@ -28,12 +33,8 @@
 				title: "Linkedin Touch Up",
 				info: "Airbrush, tie, background. Technology Used: Adobe Photoshop ",
 				img:"assets/images/moizBeforeAfter.png"
-			},
-			{
-				title: "Birthday Wallpaper",
-				info: "Wallpaper promoting a birthday. Technology Used: Adobe Photoshop ",
-				img:"assets/images/adilBeforeAfter.png"
 			}
+			
 		 ]
 
 		
