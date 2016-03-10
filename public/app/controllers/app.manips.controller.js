@@ -3,19 +3,20 @@
 
 	angular
 		.module('app')
-		.controller('appsCtrl', appsCtrl)
+		.controller('manipsCtrl', manipsCtrl)
 
-	appsCtrl.$inject = ['sampleService','authService','$state','$http','toastr','$rootScope','navService','$scope']
+	manipsCtrl.$inject = ['sampleService','authService','$state','$http','toastr','$rootScope','navService','$scope']
 
-	function appsCtrl(sampleService,authService,$state, $http, toastr, $rootScope, navService,$scope) {
+	function manipsCtrl(sampleService,authService,$state, $http, toastr, $rootScope, navService,$scope) {
 
-		console.log("appsCtrl");
+		console.log("manipsCtrl");
 		navService.info();
 
 		
 
 		 var vm = $scope;
-		  vm.pageTitle = "apps";
+
+		 vm.pageTitle = "photo manipulations";
 
 		 vm.data = [
 			{
@@ -35,11 +36,3 @@
 	} //end appCtrl
 
 })()
-
-
-
-
-
-
-
-

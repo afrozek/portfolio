@@ -3,19 +3,20 @@
 
 	angular
 		.module('app')
-		.controller('appsCtrl', appsCtrl)
+		.controller('designsCtrl', designsCtrl)
 
-	appsCtrl.$inject = ['sampleService','authService','$state','$http','toastr','$rootScope','navService','$scope']
+	designsCtrl.$inject = ['sampleService','authService','$state','$http','toastr','$rootScope','navService','$scope']
 
-	function appsCtrl(sampleService,authService,$state, $http, toastr, $rootScope, navService,$scope) {
+	function designsCtrl(sampleService,authService,$state, $http, toastr, $rootScope, navService,$scope) {
 
-		console.log("appsCtrl");
+		console.log("designsCtrl");
 		navService.info();
 
 		
 
 		 var vm = $scope;
-		  vm.pageTitle = "apps";
+
+		  vm.pageTitle = "designs";
 
 		 vm.data = [
 			{
@@ -35,11 +36,3 @@
 	} //end appCtrl
 
 })()
-
-
-
-
-
-
-
-

@@ -105,7 +105,26 @@ angular.module('app')
 			url: '/apps',
 			templateUrl:'app/views/app.portfolio.template.html',
 			controller: 'appsCtrl',
-			controllerAs: 'apps',
+			data: {
+				permission: false,
+				permissionLevel: ['everyone']
+			}
+		})
+
+		.state('app.designs',{
+			url: '/designs',
+			templateUrl:'app/views/app.portfolio.template.html',
+			controller: 'designsCtrl',
+			data: {
+				permission: false,
+				permissionLevel: ['everyone']
+			}
+		})
+
+		.state('app.manips',{
+			url: '/manips',
+			templateUrl:'app/views/app.portfolio.template.html',
+			controller: 'manipsCtrl',
 			data: {
 				permission: false,
 				permissionLevel: ['everyone']
