@@ -24,6 +24,15 @@ p{
 
 /*helpers*/
 
+.maxWidth{
+	max-width: 1600px;
+}
+
+#nav{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
 .clearPadding{
 	padding: 0;
 	/* overflow: auto; */
@@ -114,45 +123,65 @@ p{
 	padding-bottom: 60px;
 }
 
-.navContainer{
-	position: fixed;
-	width: 100%;
-	background: black;
-	z-index: 99;
-}
+/*custom bootstrap*/
+	.navbar-default {
+	    background-color: black;
+	    border: none;
+	}
 
-.nav{
-	width: 95%;
-	max-width: 1600px;
-}
+	.navbar{
+		margin: 0;
+		border-radius: 0;
+		font-size: 2em;
+		font-weight: 300;
+	}
+
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+		background: none;
+		/*color: white;*/
+	}
+
+/*original custom nav*/
+
+/*	.navContainer{
+		position: fixed;
+		width: 100%;
+		background: black;
+		z-index: 99;
+	}
+
+	.nav{
+		width: 95%;
+		max-width: 1600px;
+	}
 
 
-.nav ul{
-	float: right;
-	list-style-type: none;
-	font-family: "Lato","Helvetica","Arial","Sans-Serif";
+	.nav ul{
+		float: right;
+		list-style-type: none;
+		font-family: "Lato","Helvetica","Arial","Sans-Serif";
 
-}
+	}
 
-.nav ul li{
-	text-align: center;
-	margin: 15px;
-	display: inline-block;
-}
+	.nav ul li{
+		text-align: center;
+		margin: 15px;
+		display: inline-block;
+	}
 
-.nav ul li a{
-	color: white;
-	font-weight: 100;
-	text-align: center;
-	padding-bottom: 5px;
-	font-size: 1.5em;
-}
+	.nav ul li a{
+		color: white;
+		font-weight: 100;
+		text-align: center;
+		padding-bottom: 5px;
+		font-size: 1.5em;
+	}
 
-.nav ul li a:hover{
-	text-decoration: none;
-	border-bottom: 1px solid #3fffab;
-	color: #3fffab;
-}
+	.nav ul li a:hover{
+		text-decoration: none;
+		border-bottom: 1px solid #3fffab;
+		color: #3fffab;
+	}*/
 
 .headerContainer{
 	height: 100%;
