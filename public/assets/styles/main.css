@@ -286,9 +286,9 @@ p{
 	width: 100%;
 	position: absolute;
 	/* background: black; */!background:rgba(0,0,0,0.5);
-	
 	line-height: 300px;
 	letter-spacing: 22px;
+	font-size: 6.2em;
 }
 
 .box a{
