@@ -12,6 +12,7 @@ body{
 	!background: whitesmoke;
 	font-family:"Lato","Helvetica","Arial","Sans-Serif";
 	font-size: 1.8em;
+
 }
 
 .clearPadding{
@@ -39,7 +40,7 @@ body{
 }
 
 #mainContainer{
-	margin-top: 30px;
+
 	background: #262626;
 	/* border-radius: 9px; */
 	/* padding: 14px; */
@@ -222,12 +223,16 @@ p{padding: 20px;color: #CDCDCD;font-weight: 300;}
 
 
 
-/*@media (min-width: 768px){
+@media (min-width: 768px){
 
-	.navbar-header{
+	body{
+		padding-top: 30px;
+	}
+
+	/*.navbar-header{
 		float: none;
 	    margin-left: auto;
 	    margin-right: auto;
 	    width: 200px;
-	}
-}*/
+	}*/
+}
