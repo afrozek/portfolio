@@ -15,6 +15,10 @@ body{
 	color: black;	
 	font-weight: 100;
 	font-size: 100%;
+		background: url('../images/appsBlurred.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 p{
@@ -201,14 +205,14 @@ p{
 
 .headerContainer{
 	/* display: none; */
-	 height: 100%; 
-	background: black;
+
+/*	background: black;
 	background: url('../images/macDesk.png');
 	background-position: center;
 	 background-position-y: bottom; 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100%;
+	background-size: 100%;*/
 	padding: 30px;
 }
 
@@ -242,6 +246,8 @@ p{
 	padding: 20px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	color: #6FFFB0;
+	font-size: 5.5em;
 }
 
 .boxes{
@@ -262,7 +268,19 @@ p{
 	background: url('../images/apps.png');
 	background-size: cover;
 	background-position: center;
+	box-shadow: 0px 0px 39px -11px white;
+	transition: .3s;
+}
 
+.box:hover{
+	box-shadow: 0px 0px 21px -1px #0EFF71;
+ 	transition: .3s;		
+
+}
+.box:hover a{
+	transition: .3s;		
+	color: #6FFFB0;		
+		
 }
 
 /*#apps{
@@ -317,9 +335,10 @@ p{
 	height: 100%;
 	display: inline-block;
 	width: 100%;
+	/* box-shadow: 0px 0px 8px 19px white; */
 }
 
-.portItem{/* border: 1px solid black; */background: black;/* background: rgba(0, 0, 0, 0.75); *//* max-width: 960px; *//* width: 100%; *//* position: relative; */overflow: auto;/* height: 100%; */color: black;padding: 20px;margin-bottom: 10px;/* background: url('../images/apps.png'); */ */;/* background-size: 140%; */border-bottom: 1px solid black;/* height: 457px; */min-height: 480px;/* height: 100%; *//* height: 500px; */}
+.portItem{/* border: 1px solid black; */background: rgba(0, 0, 0, 0.14);/* background: rgba(0, 0, 0, 0.75); *//* max-width: 960px; *//* width: 100%; *//* position: relative; */overflow: auto;/* height: 100%; */color: black;padding: 20px;margin-bottom: 10px;/* background: url('../images/apps.png'); */ */;/* background-size: 140%; */border-bottom: 1px solid black;/* height: 457px; */min-height: 480px;/* height: 100%; *//* height: 500px; */}
 
 .portItem h2{
 	text-align: center;
@@ -327,13 +346,23 @@ p{
 	/* border-bottom: 1px solid gray; */
 	/* padding: 20px; */
 	/* background: black; */
-	/* color: white; */
+	color: #6FFFB0;
+	/* background: #6FFFB0; */
 	margin: 0;
-	padding: 12px;
+	padding: 5px;
+	margin-bottom: 9px;
 	/* letter-spacing: 10px; */
+	font-weight: 300;
 }
 
 
+#skillsPage{
+
+}
+
+#skillsPage p{
+	color: white;
+}
 
 
 .content .pageTitle h2{
@@ -357,7 +386,7 @@ p{
 }
 
 .content .skillsTable{
-	/* background: rgba(255,255,255,.1); */
+	background: rgba(255,255,255,.1);
 	clear: both;
 	/* overflow: auto; */
 	margin-top: 10px;
@@ -366,6 +395,7 @@ p{
 	height: 380px;
 	font-size: 2.2em;
 	font-weight: 300;
+	color: white;
 }
 
 .content .skillsTable .col-md-4{
@@ -382,6 +412,7 @@ p{
 	padding: 10px;
 	border-bottom: 1px solid #3fffab;
 	font-family: "Lato","Helvetica","Arial","Sans-Serif";
+	color:  #3fffab;
 	margin: 0;
 }
 
@@ -389,15 +420,6 @@ p{
 	margin-top: 10px;
 }
 
-#appsPage{
-	/* background-attachment: fixed; */
-	/* background-position: center; */
-	background: url('../images/apps.png');
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	/* background: gray; */
-}
 
 .portfolio{
 	margin-top: 40px;
@@ -418,6 +440,7 @@ p{
 	font-size: 1.1em;
 	/* float: left; */
 	/* padding-right: 45px; */
+	padding-top: 0;
 }
 
 
