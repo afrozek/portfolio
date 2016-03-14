@@ -8,7 +8,7 @@ body{
 	background: url('https://i.ytimg.com/vi/cYEvZaeY2lQ/maxresdefault.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100%;
+	background-size: cover;
 	!background: whitesmoke;
 	font-family:"Lato","Helvetica","Arial","Sans-Serif";
 	font-size: 1.8em;
