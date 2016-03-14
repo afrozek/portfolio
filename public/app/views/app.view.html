@@ -1,36 +1,6 @@
-<!-- <header ng-include="'app/views/includes/app.nav.html'">
 
-</header> -->
-<!-- <div class="row fullHeight">
-	<div class="ui-view-container fullHeight">
-		<div ui-view class="fullHeight">
-		</div>
-	</div>
-</div> -->
-<!-- <div class="nav outline col-md-3 clearPadding clearMargin" ng-controller="appCtrl as app" ng-click="app.toggleNav()" >
-	<span class="logo">ak</span>
-	<ul>
-		<li><a ui-sref="app.home" >home</a></li>
-		<li><a ui-sref="app.bio" >bio</a></li>
-		<li><a ui-sref="app.skills" >skills</a></li>
-		<li><a ui-sref="app.portfolio" href="">portfolio</a></li>
-	</ul>
-</div> -->
-
-<!-- <div class="navContainer">
-	<div class="nav centerDiv">
-		<ul>
-			<li><a ui-sref="app.home" >home</a></li>
-			<li><a ui-sref="app.bio" >about</a></li>
-			<li><a ui-sref="app.skills" >contact</a></li>
-			<li><a ui-sref="app.portfolio" href="">portfolio</a></li>
-		</ul>
-	</div>
-</div> -->
-
-<div class="container">
-<nav id="nav" class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid maxWidth">
+<div id="mainContainer" class="container maxWidth clearPadding boxShadow">
+<nav  class="navbar navbar-default ">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -43,7 +13,7 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse clearPadding " id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
        
         <li><a href="#bio">about</a></li>
@@ -62,9 +32,10 @@
       </ul>
 
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
 </nav>
+
+<div ui-view class="container clearPadding">
+
 </div>
-<div class="fullHeight" ui-view>
 
 </div>

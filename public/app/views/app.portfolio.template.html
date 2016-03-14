@@ -1,36 +1,18 @@
 
 
-  <div id="appsPage" class="contentContainer navPadding footerPadding">
-  <div class="content centerDiv">
-    <h1 class="contentTitle whiteFont" >{{pageTitle}}</h1>
-   
-<!--         <div class="portItem centerDiv fullWidth ">
-          
-          <div class="info col-md-3">
-            <h2>NoteTaker</h2>
-            <p>Wanted to make something like google keep and trello for practice, unique thing about this app is that you can drag and drop from mobile devices thanks to the touchpunch library. You can also save your notes to retrieve them later. Going to change the UI soon and integrate websockets, sharing and other features. </p>
-          </div> 
-          <div class="portImage col-md-9 clearPadding">
-                      <img class="resImg centerDiv" src="assets/gifs/notetaker.gif"/>   
+<h1 class="pageTitle" >{{pageTitle}}</h1>
 
-          </div> 
+<div  ng-repeat="item in data track by $index">
+<div class="portItem">
+  <div class="info col-md-3">
+    <h2 >{{item.title}}</h2>
+    <p>{{item.info}} </p>
+  </div> 
 
-        </div> -->
-
-          <div class="portItem centerDiv fullWidth " ng-repeat="item in data track by $index">
-          
-          <!-- <img class="portImage" src="assets/images/sampleDisplay.png"> -->
-          <div class="info col-md-3">
-            <h2>{{item.title}}</h2>
-            <p>{{item.info}} </p>
-          </div> 
-          <div class="portImage col-md-9 clearPadding">
-                      <a href='{{item.img}}'><img class="resImg centerDiv" src='{{item.img}}'/> </a>  
-
-          </div> 
-
-        </div>
-
-
-  </div>
+  <div class="portImage col-md-9 clearPadding">
+    <a href='{{item.img}}'><img class="img-responsive " src='{{item.img}}'/> </a>  
+  </div> 
 </div>
+</div>
+
+

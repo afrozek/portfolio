@@ -1,0 +1,463 @@
+
+
+html{
+	height: 100%;
+}
+
+body{
+	font-family:"Lato","Helvetica","Arial","Sans-Serif";
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	!padding-top: 50px;
+	height: 100%;
+	color: black;	
+	font-weight: 100;
+	font-size: 100%;
+		background: url('../images/appsBlurred.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+p{
+	font-size: 2em;
+	font-weight: 300;
+}
+
+/*helpers*/
+
+.maxWidth{
+	max-width: 1600px;
+}
+
+#nav{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding: 5px;
+}
+
+.clearPadding{
+	padding: 0;
+	/* overflow: auto; */
+}
+
+.clearMargin{
+	margin: 0;
+}
+
+.centerText{
+	text-align: center;
+} 
+
+.centerDiv{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fullHeight{
+	height: 100%;
+	!overflow: auto;
+}
+
+.fullWidth{
+	width: 100%;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+
+.outline{
+	!outline: 1px solid white !important;
+}
+
+.centerText{
+	text-align: center;
+}
+
+.resImg{
+	display: block;
+	width: 100%;
+	/* max-width: 960px; */
+	/* padding: 20px; */
+	/* border-radius: 15px; */
+	/* border: 1px solid gray; */
+}
+/*colors*/
+
+.softBlue{
+	background: #49AAEF;
+}
+
+.whiteFont{
+	color: white;
+}
+
+.blackGradient{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,474747+25,2c2c2c+72 */
+	background: rgb(76,76,76); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(76,76,76,1) 0%, rgba(71,71,71,1) 25%, rgba(44,44,44,1) 72%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(71,71,71,1) 25%,rgba(44,44,44,1) 72%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(76,76,76,1) 0%,rgba(71,71,71,1) 25%,rgba(44,44,44,1) 72%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#2c2c2c',GradientType=0 ); /* IE6-9 */
+
+}
+
+.silverGradient{
+	background: white; /*fallback*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d8d8d8+100 */
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(216,216,216,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(216,216,216,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(216,216,216,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d8d8d8',GradientType=0 ); /* IE6-9 */
+
+}
+
+.navPadding{
+	padding-top: 60px;
+}
+.footerPadding{
+	padding-bottom: 60px;
+}
+
+/*custom bootstrap*/
+	.navbar-default {
+	    background-color: black;
+	    border: none;
+	}
+
+	.navbar{
+		margin: 0;
+		border-radius: 0;
+		font-size: 2em;
+		font-weight: 300;
+	}
+
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+		background: none;
+		/*color: white;*/
+	}
+
+/*original custom nav*/
+
+/*	.navContainer{
+		position: fixed;
+		width: 100%;
+		background: black;
+		z-index: 99;
+	}
+
+	.nav{
+		width: 95%;
+		max-width: 1600px;
+	}
+
+
+	.nav ul{
+		float: right;
+		list-style-type: none;
+		font-family: "Lato","Helvetica","Arial","Sans-Serif";
+
+	}
+
+	.nav ul li{
+		text-align: center;
+		margin: 15px;
+		display: inline-block;
+	}
+
+	.nav ul li a{
+		color: white;
+		font-weight: 100;
+		text-align: center;
+		padding-bottom: 5px;
+		font-size: 1.5em;
+	}
+
+	.nav ul li a:hover{
+		text-decoration: none;
+		border-bottom: 1px solid #3fffab;
+		color: #3fffab;
+	}*/
+
+#logo{
+	font-family: 'Kaushan Script', cursive;
+	color: #6FFFB0;
+	font-size: 1.6em;
+	margin: 5px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover {
+    color: #6FFFB0;
+}
+
+.headerContainer{
+	/* display: none; */
+
+/*	background: black;
+	background: url('../images/macDesk.png');
+	background-position: center;
+	 background-position-y: bottom; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;*/
+	padding: 30px;
+}
+
+.header{
+	padding-top: 100px;
+	width: 95%;
+	max-width: 1600px;
+}
+
+.header h1{
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	font-size: 6em;
+}
+
+
+.contentContainer{overflow: auto;}
+
+.content{
+	width: 95%;
+	max-width: 1600px;
+	overflow: auto;
+}
+
+.contentTitle{
+	font-weight: 100;
+	text-align: center;
+	letter-spacing: 11px;
+	margin: 0;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #6FFFB0;
+	font-size: 5.5em;
+}
+
+.boxes{
+	margin-top: 17px;
+	margin-bottom: 50px;
+	overflow: auto;
+}
+
+.boxes .col-md-6{
+	padding: 10px;
+}
+
+.box{
+	background: #7A0707;
+	min-height: 300px;
+	position: relative;
+	overflow: hidden;
+	background: url('../images/apps.png');
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 0px 39px -11px white;
+	transition: .3s;
+}
+
+.box:hover{
+	box-shadow: 0px 0px 21px -1px #0EFF71;
+ 	transition: .3s;		
+
+}
+.box:hover a{
+	transition: .3s;		
+	color: #6FFFB0;		
+		
+}
+
+/*#apps{
+	background: url('../images/apps.png');
+			background-size: cover;
+	background-position: center;
+}*/
+
+#designs{
+	background: url('../images/designs.png');
+	/* background-size: 130%; */
+	background-position: top;
+}
+
+#manips{
+	background: url('../images/manips.png');
+	background-size: 167%;
+	background-position: bottom;
+}
+
+#apps{
+	background: url('../images/apps.png');
+	background-size: 138%;
+	background-position: top;
+}
+
+.box{
+
+}
+
+
+.box h2{
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	display: inline-block;
+	bottom: 0;
+	/* padding: 20px; */
+	margin: 0;
+	width: 100%;
+	position: absolute;
+	/* background: black; */!background:rgba(0,0,0,0.5);
+	line-height: 300px;
+	letter-spacing: 22px;
+	font-size: 6.2em;
+}
+
+.box a{
+	text-decoration: none;
+	color: white;
+	/* line-height: inherit; */
+	height: 100%;
+	display: inline-block;
+	width: 100%;
+	/* box-shadow: 0px 0px 8px 19px white; */
+}
+
+.portItem{/* border: 1px solid black; */background: rgba(0, 0, 0, 0.14);/* background: rgba(0, 0, 0, 0.75); *//* max-width: 960px; *//* width: 100%; *//* position: relative; */overflow: auto;/* height: 100%; */color: black;padding: 20px;margin-bottom: 10px;/* background: url('../images/apps.png'); */ */;/* background-size: 140%; */border-bottom: 1px solid black;/* height: 457px; */min-height: 480px;/* height: 100%; *//* height: 500px; */}
+
+.portItem h2{
+	text-align: center;
+	font-weight: inherit;
+	/* border-bottom: 1px solid gray; */
+	/* padding: 20px; */
+	/* background: black; */
+	color: #6FFFB0;
+	/* background: #6FFFB0; */
+	margin: 0;
+	padding: 5px;
+	margin-bottom: 9px;
+	/* letter-spacing: 10px; */
+	font-weight: 300;
+}
+
+
+#skillsPage{
+
+}
+
+#skillsPage p{
+	color: white;
+}
+
+
+.content .pageTitle h2{
+	background: rgba(255,255,255,.1);
+	padding: 10px;
+	padding-left: 15px;
+	border-left: 1px solid #3fffab;
+	color: #3fffab;
+	font-weight: lighter;
+	font-weight: 100;
+	letter-spacing: 2px;
+	
+	font-family: "Lato","Helvetica","Arial","Sans-Serif";
+
+}
+
+.content .body h3{
+	color: #3fffab;
+	font-family: "Lato","Helvetica","Arial","Sans-Serif";
+
+}
+
+.content .skillsTable{
+	background: rgba(255,255,255,.1);
+	clear: both;
+	/* overflow: auto; */
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+	height: 380px;
+	font-size: 2.2em;
+	font-weight: 300;
+	color: white;
+}
+
+.content .skillsTable .col-md-4{
+	box-sizing: borderbox;
+	border: 1px solid rgba(0,0,0,.3);
+	background: rgba(225, 225, 225, .1);
+	/* box-sizing: inherit; */
+	height: 100%;
+}
+
+
+.content .skillsTable h3{
+	background: rgba(255,255,255,.1);
+	padding: 10px;
+	border-bottom: 1px solid #3fffab;
+	font-family: "Lato","Helvetica","Arial","Sans-Serif";
+	color:  #3fffab;
+	margin: 0;
+}
+
+.content .skillsTable ul{
+	margin-top: 10px;
+}
+
+
+.portfolio{
+	margin-top: 40px;
+}
+
+.portfolio .portImage{
+	width: 95%;
+	height: auto;
+}
+
+.info{
+	padding: 2em;
+	/* background: #191919; */
+	color: white;
+	/* height: 100%; */
+	position: relative;
+	height: 100% !important;
+	font-size: 1.1em;
+	/* float: left; */
+	/* padding-right: 45px; */
+	padding-top: 0;
+}
+
+
+
+
+
+
+
+/*transitions*/
+.ui-view-container {
+  position: relative;
+}
+/*
+[ui-view].ng-enter, [ui-view].ng-leave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+}*/
