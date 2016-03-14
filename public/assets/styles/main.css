@@ -65,6 +65,9 @@ body{
 .navbar-default .navbar-nav>li>a {
     color: #FFF;
     font-weight: 200;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 7px;
 }
 
 .nav{
@@ -223,11 +226,35 @@ p{padding: 20px;color: #CDCDCD;font-weight: 300;}
 
 
 
+.social .fa-codepen:hover {
+    color: #4060A5;
+}
+
+.social .fa-github:hover {
+    color: #00ABE3;
+}
+
+.social .fa-google-plus:hover {
+    color: #e64522;
+}
+
+.social .fa-linkedin:hover {
+    color: #0094BC;
+}
+
+
 @media (min-width: 768px){
 
 	body{
 		padding-top: 30px;
 	}
+
+	.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    font-weight: 200;
+    font-size: 1em;
+    margin: 5px;
+}
 
 	/*.navbar-header{
 		float: none;
