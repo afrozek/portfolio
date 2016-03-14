@@ -56,16 +56,16 @@ angular.module('app')
 			}
 		})
 
-		.state('app.portfolio',{
-			url: '/portfolio',
-			templateUrl:'app/views/app.portfolio.html',
-			//controller: 'portfolioCtrl',
-			controllerAs: 'portfolio',
-			data: {
-				permission: false,
-				permissionLevel: ['everyone']
-			}
-		})
+		// .state('app.portfolio',{
+		// 	url: '/portfolio',
+		// 	templateUrl:'app/views/app.portfolio.html',
+		// 	//controller: 'portfolioCtrl',
+		// 	controllerAs: 'portfolio',
+		// 	data: {
+		// 		permission: false,
+		// 		permissionLevel: ['everyone']
+		// 	}
+		// })
 
 
 		.state('app.register',{
