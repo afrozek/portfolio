@@ -4,14 +4,14 @@
 
 <div  ng-repeat="item in data track by $index">
 <div class="portItem">
-  <div class="info col-md-3">
     <h2 >{{item.title}}</h2>
-    <p>{{item.info}} </p>
-  </div> 
 
-  <div class="portImage col-md-9 clearPadding">
-    <a href='{{item.img}}'><img class="img-responsive " src='{{item.img}}'/> </a>  
-  </div> 
+
+    <a href='{{item.img}}'><img class="img-responsive " src='{{item.img}}'/> </a> 
+    <p>{{item.info}} </p>
+
+
+
 </div>
 </div>
 

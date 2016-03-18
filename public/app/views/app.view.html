@@ -1,6 +1,7 @@
 
-<div id="mainContainer" class="container maxWidth clearPadding boxShadow">
-<nav  class="navbar navbar-default ">
+<div id="mainContainer" class="container maxWidth  fullHeight">
+<div class="col-sm-3">
+<nav  class="navbar navbar-default">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -9,17 +10,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a id="logo" class="navbar-brand" href="#home">AfrozeKhan</a>
+      <a id="logo" class="navbar-brand" href="#home">AK</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse clearPadding " id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a ui-sref="app.home" >home</a></li>
-        <li><a href="#bio">about</a></li>
-        <li><a href="#skills">skillset</a></li>
+        <!-- <li><a href="#bio">about</a></li> -->
+        <li><a ui-sref="app.apps" >portfolio</a></li>
+        <li><a ui-sref="app.skills">skillset</a></li>
 
-        <li class="dropdown">
+       <!--  <li><a ui-sref="app.apps" >apps</a></li>
+        <li><a ui-sref="app.designs" >designs</a></li>
+
+        <!-- <li class="dropdown">
           <a ui-sref="#portfolio" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">portfolio <span class="caret"></span></a>
           <ul class="dropdown-menu">
 
@@ -29,12 +34,12 @@
             <li><a ui-sref="app.other" >other</a></li>
 
           </ul>
-        </li>
+        </li> -->
 
 
       </ul>
       <!-- social media icons -->
-                <ul class="nav navbar-nav navbar-right social">
+                <ul class="nav navbar-nav  social">
                     <li><a href="https://github.com/afrozek"><i class="fa fa-lg fa-github"></i></a></li>
                     <li><a href="http://codepen.io/auk2/"><i class="fa fa-lg fa-codepen"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/afroze-khan-4b204294"><i class="fa fa-lg fa-linkedin"></i></a></li>
@@ -42,8 +47,9 @@
 
     </div><!-- /.navbar-collapse -->
 </nav>
+</div>
 
-<div ui-view class="container clearPadding">
+<div ui-view id="content" class="col-sm-8 fullHeight">
 
 </div>
 
