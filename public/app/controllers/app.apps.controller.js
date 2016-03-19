@@ -20,12 +20,12 @@
 		 vm.data = [
 			 {
 				title: "Budget Manager",
-				info: "Wanted to make something like Google Keep and Trello for practice, unique thing about this app is that you can drag and drop from mobile devices thanks to the touchpunch library. You can also save your notes to retrieve them later. Going to change the UI soon and integrate websockets, sharing and other features. Technologies Used: Angular,NodeJs, MongoDB",
+				info: "Simple budgeting app for managing expenses. Made using Angular, boostrap, and Chart.js",
 				img:"assets/images/budgetManager.gif"
 			},
 			{
 				title: "NoteTaker",
-				info: "Wanted to make something like Google Keep and Trello for practice, unique thing about this app is that you can drag and drop from mobile devices thanks to the touchpunch library. You can also save your notes to retrieve them later. Going to change the UI soon and integrate websockets, sharing and other features. Technologies Used: Angular,NodeJs, MongoDB",
+				info: "Wanted to make something like Google Keep and Trello for practice, unique thing about this app is that you can drag and drop from mobile devices thanks to the touchpunch library. You can also save your notes to retrieve them later. Going to change the UI soon and integrate websockets, sharing, and other features. Technologies Used: Angular, NodeJs, MongoDB",
 				img:"assets/gifs/notetaker.gif"
 			},
 			{

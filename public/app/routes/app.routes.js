@@ -34,6 +34,17 @@ angular.module('app')
 			}
 		})
 
+		.state('app.contact',{
+			url: '/contact',
+			templateUrl:'app/views/app.contact.html',
+			controller: 'homeCtrl',
+			controllerAs: 'home',
+			data: {
+				permission: false,
+				permissionLevel: ['everyone']
+			}
+		})
+
 		.state('app.bio',{
 			url: '/bio',
 			templateUrl:'app/views/app.bio.html',
