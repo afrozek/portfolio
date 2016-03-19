@@ -7,7 +7,7 @@ body{
 	height: 100%;
 
 	background: whitesmoke;
-	font-family:"Times","Helvetica","Arial","Sans-Serif";
+	font-family:"Roboto Slab","Times","Helvetica","Arial","Sans-Serif";
 	font-size: 1.8em;
 
 }
@@ -81,11 +81,22 @@ h1.pageTitle{
 		color: gray;
 	}
 
+.navbar-nav{
+	margin: 0;
+	margin-top: 10px;
+}	
+
 .navbar-nav>li {
 	font-size: 2em;
 	margin-bottom: 15px;
 }
 
+.portItem{
+	/* padding-bottom: 10px; */
+	margin-bottom: 35px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #E3E3E3;
+}
 
 
 @media (min-width: 768px){
