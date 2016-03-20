@@ -33,6 +33,8 @@
 		 	vm.isLogged = false;
 		 })
 
+			
+
 	} //end appCtrl
 
 })()

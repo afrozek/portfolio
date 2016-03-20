@@ -32,6 +32,14 @@ angular
     //console.log("state changing");
     //console.log(toState)
 
+        //nav collapse                
+        if ($(window).width() <= 768) {
+            $('.navbar-toggle').click();
+          }
+
+
+
+
         if(toState.data.permission === true){
 
             console.log("need permission");
@@ -49,8 +57,10 @@ angular
                 //console.log(toState.resolve.authorizationResolver)
             }
             else{
+
                 //just to show that the resolver was already added
                 //console.log(toState.resolve.authorizationResolver)
+
             }
 
         } //end if needs permission
