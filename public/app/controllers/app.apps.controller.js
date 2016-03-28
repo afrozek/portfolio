@@ -29,6 +29,11 @@
 				img:"assets/gifs/notetaker.gif"
 			},
 			{
+				title: "StudyBuddy",
+				info: "A document collaborating app design I made using photoshop. Never really finished it as I got more into programming and less into designing. Still thought it was worth posting",
+				img:"assets/images/studyBuddy.jpg"
+			},
+			{
 				title: "Health Blog",
 				info: "Health blog made with Angular and PHP",
 				img:"assets/images/moizBlog.png"
