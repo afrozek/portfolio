@@ -31,7 +31,7 @@
 			{
 				title: "StudyBuddy",
 				info: "A document collaborating app design I made using photoshop. Never really finished it as I got more into programming and less into designing. Still thought it was worth posting",
-				img:"assets/images/studyBuddy.jpg"
+				img:"assets/images/studybuddy.jpg"
 			},
 			{
 				title: "Health Blog",
