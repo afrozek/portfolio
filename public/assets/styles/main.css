@@ -9,6 +9,13 @@ body{
 	background: whitesmoke;
 	font-family:"Roboto Slab","Times","Helvetica","Arial","Sans-Serif";
 	font-size: 1.8em;
+/*	background:url('../images/myDesk.svg');
+	background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);*/
 
 }
 
@@ -46,17 +53,18 @@ p{
 
 #mainContainer{
 
-	background: whitesmoke;
-	/* border-radius: 9px; */
+/*	background: whitesmoke;
+*/	/* border-radius: 9px; */
 	/* padding: 14px; */
 }
 
 
 
 .navbar-default {
-     background-color: whitesmoke; 
-     border-color: none; 
+/*     background-color: whitesmoke; 
+*/     border-color: none; 
      border: 0;
+     background: none;
 }
 
 #logo{
@@ -75,15 +83,33 @@ h1.pageTitle{
 	    text-align: center;
 	}
 
-#homePage h1{
 
+
+#homePage h1{
 	color: gray;
+	text-align: center;
 }
 
 #homePage h2{
-		font-size: 2em;
-		color: gray;
+	text-align: center;
+    font-size: 2em;
+    color: gray;
+    border: 10px solid #545252;
+    background: #FFFEDB;
+    padding: 13px 0px;
 	}
+
+#homePage .imageContainer{
+	overflow: hidden;
+	padding: 0;
+	
+}
+
+#homePage img{
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
 
 .navbar-nav{
 	margin: 0;
@@ -130,6 +156,18 @@ h1.pageTitle{
 	    float: none;
 	    text-align: center;
 	}
+
+	#homePage .imageContainer{
+	overflow: hidden;
+	padding: 0;
+	
+	}
+
+	#homePage img{
+		margin: 0 auto;
+		display: block;
+		width: 100%;
+	}	
 
 	#content{
 	border-left: 1px solid #E3E3E3;
