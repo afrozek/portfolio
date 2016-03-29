@@ -85,19 +85,16 @@ h1.pageTitle{
 
 
 
-#homePage h1{
-	color: gray;
-	text-align: center;
-}
 
-#homePage h2{
+
+#homePage h1{
 	text-align: center;
-    font-size: 2em;
+    font-size: 1.2em;
     color: gray;
     border: 10px solid #545252;
     background: #FFFEDB;
-    padding: 13px 0px;
-	}
+    padding: 13px;
+}
 
 #homePage .imageContainer{
 	overflow: hidden;
@@ -109,6 +106,11 @@ h1.pageTitle{
 	margin: 0 auto;
 	display: block;
 	width: 100%;
+}
+
+#homePage hr{
+	margin: 5px 10px;
+    border-color: #8B8080;
 }
 
 .navbar-nav{
@@ -130,6 +132,7 @@ h1.pageTitle{
 
 
 @media (min-width: 768px){
+
 
 
 
@@ -157,6 +160,16 @@ h1.pageTitle{
 	    text-align: center;
 	}
 
+
+	#homePage h1{
+		text-align: center;
+	    font-size: 1.4em;
+	    color: gray;
+	    border: 10px solid #545252;
+	    background: #FFFEDB;
+	    padding: 13px 0px;
+	}
+
 	#homePage .imageContainer{
 	overflow: hidden;
 	padding: 0;
@@ -167,6 +180,11 @@ h1.pageTitle{
 		margin: 0 auto;
 		display: block;
 		width: 100%;
+	}
+
+	#homePage hr{
+		margin: 5px 20px;
+    	border-color: #8B8080;
 	}	
 
 	#content{
