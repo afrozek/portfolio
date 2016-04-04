@@ -5,9 +5,9 @@
 		.module('app')
 		.controller('appsCtrl', appsCtrl)
 
-	appsCtrl.$inject = ['sampleService','authService','$state','$http','toastr','$rootScope','navService','$scope']
+	appsCtrl.$inject = ['sampleService','$state','$http','$rootScope','navService','$scope']
 
-	function appsCtrl(sampleService,authService,$state, $http, toastr, $rootScope, navService,$scope) {
+	function appsCtrl(sampleService,$state, $http, $rootScope, navService,$scope) {
 
 		console.log("appsCtrl");
 		navService.info();
