@@ -6,9 +6,9 @@
 // CALL PACKAGES-----------------------------------------------
 	var express = require('express'); // call epxress
 	var app = express(); // define app
-	var bodyParser = require('body-parser'); // reads post contents
-	var morgan = require('morgan'); // logs all requests to console
-	var mongoose = require('mongoose'); //ORM 
+	// var bodyParser = require('body-parser'); // reads post contents
+	// var morgan = require('morgan'); // logs all requests to console
+	// var mongoose = require('mongoose'); //ORM 
 	var path = require('path');
 	var port = 80;
 //CONFIG IMPORT
@@ -20,8 +20,8 @@
 // APP CONFIG
 //==============================================================
 	// use bodyparser to grab info from POST requests
-	app.use(bodyParser.urlencoded({extended:true}));
-	app.use(bodyParser.json());
+	// app.use(bodyParser.urlencoded({extended:true}));
+	// app.use(bodyParser.json());
 
 	// handle CORS requests(cross origin resource sharing)
 	app.use(function(req,res,next){
@@ -32,7 +32,7 @@
 	});
 
 // log all requests to console
-	app.use(morgan('dev'));
+	//app.use(morgan('dev'));
 
 
 // DB CONNECT
@@ -48,8 +48,8 @@ app.use(express.static(__dirname + '/public'));
 //==============================================================
 
 //API ROUTES
-var usersApi = require('./app/components/users/usersApi')(app,express);
-app.use('/api/users',usersApi);
+// var usersApi = require('./app/components/users/usersApi')(app,express);
+// app.use('/api/users',usersApi);
 
 //CATCHALL : sends all routes not defined to front end
 //MUST BE REGISTERED AFTER API ROUTES ABOVE^^
